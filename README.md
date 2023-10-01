@@ -1,8 +1,6 @@
 # 🚀 Simple Bitwise Calculator 🧮
 
-Welcome to the Simple Bitwise Calculator, your go-to tool for quick and easy bitwise operations! 🎉
-
-![Bitwise Calculator Demo](demo.gif)
+The Simple Bitwise Calculator is a user-friendly tool that allows you to perform bitwise operations on two numbers. With just a few clicks, you can calculate the bitwise AND, OR, or XOR of the two input numbers, providing you with the result in real time.
 
 ## 🌟 Features
 
