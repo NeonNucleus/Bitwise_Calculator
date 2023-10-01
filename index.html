@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bitwise Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bitwise Calculator</h1>
+    <label for="number1">Number 1:</label>
+    <input type="number" id="number1" autocomplete="off">
+    <br>
+    <label for="number2">Number 2:</label>
+    <input type="number" id="number2" autocomplete="off">
+    <br>
+    <button onclick="calculateBitwise()">Calculate</button>
+    <p>Result:</p>
+    <ul>
+        <li>AND&:<span id="andResult"></span></li>
+        <li>OR|:<span id="orResult"></span></li>
+        <li>X-OR^:<span id="xorResult"></span></li>
+    </ul>
+
+    <script src="scipt.js"></script>
+</body>
+</html>
