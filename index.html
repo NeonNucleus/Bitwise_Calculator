@@ -1,5 +1,70 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <title>Bitwise Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Bitwise Calculator</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <label for="number1">Number 1:</label>
+                <input type="number" id="number1" autocomplete="off">
+                <br>
+                <label for="number2">Number 2:</label>
+                <input type="number" id="number2" autocomplete="off">
+                <br>
+                <button onclick="calculateBitwise()">Calculate</button>
+            </div>
+            <div class="col">
+                <p class="result">Result:</p>
+                <ul>
+                    <div class="row">
+                        <div class="col operators">
+                            <li>AND & :</li>
+                            <li>OR | :</li>
+                            <li>X-OR ^ :</li>
+                        </div>
+                        <div class="col">
+                            <li><span id="andResult"></span></li>
+                            <li><span id="orResult"></span></li>
+                            <li><span id="xorResult"></span></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="header"> What are Bitwise Operators?</h3>
+        <p>
+            Bitwise operators are used to perform operations on binary numbers. They operate on the bit level.
+            <br>
+            <br>
+            Bitwise operators work with 32-bit integers.
+            <br>
+            <br>
+            Any numeric operand in the operation is converted into a binary string. The result is then returned in
+            decimal format.
+            <br>
+            <br>
+        </p>
+    </div>
+
+    <script src="scipt.js"></script>
+</body>
+
+</html>
+
   <head>
     <title>Bitwise Calculator</title>
     <link
@@ -42,3 +107,4 @@
 
   </body>
 </html>
+
