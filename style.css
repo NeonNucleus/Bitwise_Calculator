@@ -28,11 +28,11 @@ body {
 .row {
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
+  margin: auto;
 }
 .col {
   flex: 1;
-  margin: 0 10px;
+  margin: auto;
 }
 
 label {

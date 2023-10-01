@@ -9,8 +9,12 @@ function calculateBitwise() {
   const andResult = num1 & num2;
   const orResult = num1 | num2;
   const xorResult = num1 ^ num2;
+  const notResult1 = ~num1;
+  const notResult2 = ~num2;
   document.getElementById("andResult").textContent = andResult;
   document.getElementById("orResult").textContent = orResult;
   document.getElementById("xorResult").textContent = xorResult;
+  document.getElementById("notResult1").textContent = notResult1;
+  document.getElementById("notResult2").textContent = notResult2;
 
 }
