@@ -2,7 +2,9 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bitwise Calculator</title>
+    
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +17,7 @@
         <h1>Bitwise Calculator</h1>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row main">
             <div class="col">
                 <label for="number1">Number 1:</label>
                 <input type="number" id="number1" autocomplete="off">
@@ -30,14 +32,14 @@
                 <ul>
                     <div class="row">
                         <div class="col operators">
-                            <li>AND & :</li>
-                            <li>OR | :</li>
-                            <li>X-OR ^ :</li>
-                            <li>NOT ~num1:</li>
-                            <li>NOT ~num2:</li>
+                            <li>AND&nbsp&:</li>
+                            <li>OR |:</li>
+                            <li>XOR&nbsp^:</li>
+                            <li>~num1:</li>
+                            <li>~num2:</li>
                         </div>
                         <div class="col">
-                            <li><span id="andResult"></span></li>
+                            <li><span id="andResult">&nbsp</span></li>
                             <li><span id="orResult"></span></li>
                             <li><span id="xorResult"></span></li>
                             <li><span id="notResult1"></span></li>
