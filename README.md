@@ -1,4 +1,4 @@
-# 🚀 Simple Bitwise Calculator 🧮
+<h1 align = "center">  🚀 Simple Bitwise Calculator 🧮</h1>
 
 The Simple Bitwise Calculator is a user-friendly tool that allows you to perform bitwise operations on two numbers. With just a few clicks, you can calculate the bitwise AND, OR, or XOR of the two input numbers, providing you with the result in real time.
 
@@ -9,6 +9,8 @@ The Simple Bitwise Calculator is a user-friendly tool that allows you to perform
 ✨ **Bitwise OR**: Compute the bitwise OR operation between two numbers.
 
 ✨ **Bitwise XOR**: Determine the bitwise XOR operation between two numbers.
+
+✨ **Bitwise NOT**: Determine the bitwise NOT operation between two numbers.
 
 ✨ **Instant Results**: Get lightning-fast results in real-time.
 
@@ -23,7 +25,7 @@ The Simple Bitwise Calculator is a user-friendly tool that allows you to perform
 
 ## 🧰 Installation
 
-No installation is needed! This calculator is entirely web-based, so you can access it from your favorite web browser. Simply visit [Bitwise Calculator](https://www.example.com/bitwise-calculator) to start crunching those bits!
+No installation is needed! This calculator is entirely web-based, so you can access it from your favorite web browser. Simply visit [Bitwise Calculator](https://neonnucleus.github.io/Bitwise_Calculator/) to start crunching those bits!
 
 ## 🚀 Contribution
 
